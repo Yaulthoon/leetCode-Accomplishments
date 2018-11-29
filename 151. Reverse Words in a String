@@ -1,0 +1,38 @@
+var endSpaceGuard = function (str) {
+    var string = str;
+    var times = 0;
+    var i = 0;
+    while(string[string.length - 1] === " ") {
+    times++;
+        string = string.substring(0, str.length - times);
+        if(times === 20) {
+        return "";
+        }
+    }
+    times = 0;
+    
+    while(string[0] === " ") {
+    times++;
+    string = string.substring(times);
+    }
+    return string;
+};
+
+var reverseWords = function(str) {
+  var i = 0;
+  var initialArray = str.split(' ');
+  var reverseArray = initialArray.reverse();
+  var newString = reverseArray;
+  var concat = "";
+  for(i; i < newString.length; i++) {
+  if(newString[i] !== "") {
+  if(i === newString.length - 1) {
+  concat += newString[i];
+  } else {
+  concat += newString[i] + " ";
+  }
+  }
+  }
+  return endSpaceGuard(concat);
+  
+};
