@@ -4,4 +4,6 @@ Since I started working on leetCode to practice algorithms, I've decided to crea
 
 ### Current Submissions in this repository:
 
-151. Reverse Words in a String
+151. Reverse Words in a String.  Runtime 52ms.  Faster than 99.74% of JavaScript submissions.
+
+152. Maximum Product Subarray.  Runtime: 60 ms, faster than 74.19% of JavaScript submissions.
