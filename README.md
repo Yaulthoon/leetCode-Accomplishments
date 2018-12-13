@@ -4,8 +4,8 @@ Since I started working on leetCode to practice algorithms, I've decided to crea
 
 ### Current Submissions in this repository:
 
-4. Median of Two Sorted Arrays.  Runtime: 108 ms, faster than 80.42% of JavaScript online submissions.
+4). Median of Two Sorted Arrays.  Runtime: 108 ms, faster than 80.42% of JavaScript online submissions.
 
-151. Reverse Words in a String.  Runtime 52ms.  faster than 99.74% of JavaScript submissions.
+151). Reverse Words in a String.  Runtime 52ms.  faster than 99.74% of JavaScript submissions.
 
-152. Maximum Product Subarray.  Runtime: 60 ms, faster than 74.19% of JavaScript submissions.
+152). Maximum Product Subarray.  Runtime: 60 ms, faster than 74.19% of JavaScript submissions.
