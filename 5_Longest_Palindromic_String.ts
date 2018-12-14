@@ -30,8 +30,9 @@ var longestPalindrome = function(s) {
       right++;
       left--;
     }
+    //Distance can be thought of as the length of the longest palindrome
     let distance = right - left + 1;
-    //Set the end point on the right based on the current location we are in in the array
+    //Set the new end points if current string is new longest palindrome
     if (end < distance) {
       end = distance;
       start = left;
