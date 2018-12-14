@@ -9,3 +9,7 @@ Since I started working on leetCode to practice algorithms, I've decided to crea
 151). Reverse Words in a String.  Runtime 52ms.  faster than 99.74% of JavaScript submissions.
 
 152). Maximum Product Subarray.  Runtime: 60 ms, faster than 74.19% of JavaScript submissions.
+
+### Restructured from previous existing solution (not original)
+
+5). Longest Palindromic Substring
